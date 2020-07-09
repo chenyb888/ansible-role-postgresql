@@ -10,7 +10,7 @@ No special requirements; note that this role requires root access, so either run
 
     - hosts: database
       roles:
-        - role: geerlingguy.postgresql
+        - role: chenyb888.postgresql
           become: yes
 
 ## Role Variables
@@ -130,7 +130,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - geerlingguy.postgresql
+        - chenyb888.postgresql
 
 *Inside `vars/main.yml`*:
 
